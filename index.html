@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio Ruben Rodriguez Garcia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ruben Rodriguez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#curriculum">CURRICULUM</a></li>
+                    <!-- <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li> -->
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+     <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>RUBEN RODRIGUEZ GARCIA</h1>
+            <h2>Ingeniero de Software - Experto en Desarrollo FullStack Web</h2>
+            <div class="redes">
+                <a target="_blank" href="https://www.linkedin.com/in/ruben-rodríguez-garcía-244055202"><i class="fa-brands fa-linkedin"></i></a>
+                <a target="_blank" href="https://github.com/ruben0r"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+     </section>
+      <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Rubén Rodríguez García.</span> Me apasiona la programación y la resolución de problemas. Siempre estoy dispuesto
+            a ayudar a mis compañeros y así mejorar el ambiente laboral. Intento aprender algo nuevo cada día y ponerlo en práctica.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            01-03-2000
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 601 253 536
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ruben000rodriguez@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            28523 Rivas Vaciamadrid, Madrid, España 
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Web</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-terminal"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SENDERISMO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>COCHES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-tree"></i>
+                            <span>NATURALEZA</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button onclick="descargarCV()">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCION CURRICULUM -->
+     <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Grado Superior de Desarrollo Web</h4>
+                        <span class="casa">IES Clara del Rey</span>
+                        <span class="fecha">2021-2022</span>
+                        <p>Este grado superior se centra en la programación de páginas web a través de PHP. Estudiando otros lenguajes necesarios para la página web como HTML para mostrar los elementos en la página, CSS para estructurar y diseñar la web y SQL para gestionar la base de datos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Grado Superior de Desarrollo Multiplaforma</h4>
+                        <span class="casa">IES Clara del Rey</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Estudios sobre la programación enfocado hacia el desarrollo de programas en Java y aplicaciones para móviles. También se estudia SQL para el control de la base de datos y frameworks como Hibernate o Spring. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Fullstack Web Developer</h4>
+                        <span class="casa">TallerGP - Quality Solutions</span>
+                        <span class="fecha">Dic 2022 - Actualidad</span>
+                        <p>Desarrollar una página web encargada de la gestión interna de los talleres y del trato con los clientes (ERP-CRM de talleres) Empleando los siguientes lenguajes para el desarrollo: PHP, HTML, CSS, SQL y JavaScript. Por otro lado, también se usan servicios de AWS como S3 para guardar los documentos.  </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Fullstack Web Developer</h4>
+                        <span class="casa">Alten - Moodle</span>
+                        <span class="fecha">Mar 2022 - Dic 2022</span>
+                        <p>Desarrollar nuevas funcionalidades para la página web de Moodle utilizando lenguajes como PHP, HTML, CSS y SQL a través del framework de Hibernate. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Backend Developer</h4>
+                        <span class="casa">NTT Data</span>
+                        <span class="fecha">Mar 2021 - Jul 2021</span>
+                        <p> Prácticas del Grado Superior de Desarrollo Multiplataforma. Encargado de resolver diferentes bugs que había en el programa a través de lenguajes como JAVA. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script src='main.js'></script>
+</body>
+</html>
